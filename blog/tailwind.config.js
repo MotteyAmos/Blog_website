@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary:"#1565D8",
+        dart:{
+          hard:"#0D2436",
+          soft:"#183B56",
+        },
+        fontFamily:{
+          opensans:[ "Open Sans", "sans-serif"],
+          roboto:["Roboto", "sans-serif"]
+        }
+      }
+    },
   },
   plugins: [],
 }
